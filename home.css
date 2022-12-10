@@ -1,5 +1,5 @@
 .frame {
-  width: 90vw;
+  width: 90%;
   max-width: 1000px;
   display: block;
   background: #ffffff;
@@ -7,6 +7,7 @@
   border-radius: 1rem;
 }
 .frame__main .heading {
+  margin: 0 auto;
   margin-bottom: 5px;
 }
 .w-100 {
@@ -60,4 +61,24 @@
 }
 .frame__main button:hover {
   background: rgb(150, 150, 250);
+}
+@media only screen and (max-width: 768px) {
+  .frame {
+    position: relative !important;
+    transform: translate(0);
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 90vw;
+  }
+  .frame__main .heading {
+    font-size: 1rem;
+  }
+  .gap-1 {
+    gap: 0;
+  }
+  input {
+    width: 100%;
+  }
 }

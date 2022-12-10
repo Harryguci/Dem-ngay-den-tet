@@ -29,3 +29,9 @@
 #value-tk:focus {
   border-bottom: 2px rgb(250, 50, 50) solid;
 }
+
+@media only screen and (max-width: 768px) {
+  .item {
+    padding: 10px;
+  }
+}
