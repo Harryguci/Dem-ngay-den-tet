@@ -23,8 +23,9 @@
   margin: 0 0 0 20px;
   border: none;
   outline: none;
+  border-bottom: 2px rgb(250, 50, 50) solid;
 }
 
 #value-tk:focus {
-  border-bottom: 1px rgb(250, 50, 50) solid;
+  border-bottom: 2px rgb(250, 50, 50) solid;
 }
