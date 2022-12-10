@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="tet.css">
+</head>
+
+<body>
+    <main>
+        <div class="frame center">
+            <div class="frame__head"></div>
+            <div class="frame__main">
+                <div style="margin-left: 20px;">
+                    <h2 class="heading">
+                        <img src="./snow-svgrepo-com.svg" alt="">
+                        New Year is Coming !
+                        <img src="./snow-svgrepo-com.svg" alt="">
+                    </h2>
+                </div>
+                <div class="d-flex flex-wrap gap-1" style="justify-content: space-between; margin: 0 30px;">
+                    <div class="col item" style="margin: 10px 0;">
+                        <span>Days</span>
+                        <span id="day"></span>
+                    </div>
+                    <div class="col item" style="margin: 10px 0;">
+                        <span>Hours</span>
+                        <span id="hour"></span>
+                    </div>
+                    <div class="col item" style="margin: 10px 0;">
+                        <span>Minutes</span>
+                        <span id="minute"></span>
+                    </div>
+                    <div class="col item" style="margin: 10px 0;">
+                        <span>Seconds</span>
+                        <span id="second"></span>
+                    </div>
+                </div>
+
+                <div style="margin: 20px 20px;">
+                    <span class="" style="font-size: 1.5rem; margin-bottom: 5px;"><b>Nếu mỗi ngày bạn tiết
+                            kiệm:</b></span>
+                    <!-- <span id="value-tk" style="font-size: 3rem; color:black; font-weight: bold;" val="50000"> 50K</span> -->
+                    <input type="number" id="value-tk" style="font-size: 3rem; color:black; font-weight: bold;"
+                     value="50000" placeholder="50000">
+                    <span class="" style="font-size: 1.5rem; ">Thì bạn sẽ có : </span>
+                    <span id="value-out" style="font-size: 3rem; color: rgb(255, 50, 50); font-weight: bold;" val="">
+                        50K</span>
+
+                </div>
+            </div>
+            <div class="frame__foot"></div>
+        </div>
+    </main>
+    <script type="module" src="counter.js" defer></script>
+    <script type="module" src="tet.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+.item {
+  background: rgba(200, 200, 200, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+.item span:last-child {
+  font-size: 30px;
+  color: rgb(100, 50, 150);
+  font-weight: bold;
+}
+.item span:first-child {
+  font-size: 1.5rem;
+}
+.heading {
+  color: rgb(250, 50, 50);
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.heading img {
+  transform: scale(0.8) translate(0, 30%);
+}
+#value-tk {
+  margin: 0 0 0 20px;
+  border: none;
+  outline: none;
+}
+
+#value-tk:focus {
+  border-bottom: 1px rgb(250, 50, 50) solid;
+}
